@@ -1,0 +1,1541 @@
+{
+    "items": [
+        {
+            "shortcut": "h, Left",
+            "description": "Move left",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "j, Down",
+            "description": "Move down",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "k, Up",
+            "description": "Move up",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "l, Right",
+            "description": "Move right",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "w",
+            "description": "Move next word start",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "b",
+            "description": "Move previous word start",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "e",
+            "description": "Move next word end",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "W",
+            "description": "Move next WORD end",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "B",
+            "description": "Move previous WORD start",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "E",
+            "description": "ove next WORD end",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "t",
+            "description": "Find 'till next char",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "f",
+            "description": "Find next char",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "T",
+            "description": "Find 'till previous char",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "F",
+            "description": "Find previous char",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "G",
+            "description": "Go to line number <n>",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Alt-.",
+            "description": "Repeat last motion (f, t ro m)",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Home",
+            "description": "Move to the start of the line",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "End",
+            "description": "Move to the end of the line",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-b, PageUp",
+            "description": "Move page up",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-f, PageDown",
+            "description": "Move page down",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-u",
+            "description": "Move half page up",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-d",
+            "description": "Move half page down",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-i",
+            "description": "Jump forward on the jumplist",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-o",
+            "description": "Jump backward on the jumplist",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-s",
+            "description": "Save the current selection to the jumplist",
+            "keywords": [
+                "navigation",
+                "movement"
+            ]
+        },
+        {
+            "shortcut": "Up, Ctrl-k, Ctrl-p",
+            "description": "Previous entry",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "PageUp, Ctrl-b",
+            "description": "Page up",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "Down, Ctrl-j, Ctrl-n",
+            "description": "Next entry",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "PageDown, Ctrl-f",
+            "description": "Page down",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "Home",
+            "description": "Go to first entry",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "End",
+            "description": "Go to last entry",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-space",
+            "description": "Filter options",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "Enter",
+            "description": "Open selected",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-s",
+            "description": "Open horizontally",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-v",
+            "description": "Open vertically",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "Escape, Ctrl-c",
+            "description": "Close picker",
+            "keywords": [
+                "picker"
+            ]
+        },
+        {
+            "shortcut": "m",
+            "description": "Goto matching bracket (TS)",
+            "keywords": [
+                "match"
+            ]
+        },
+        {
+            "shortcut": "s <char>",
+            "description": "Surround current selection with <char>",
+            "keywords": [
+                "match"
+            ]
+        },
+        {
+            "shortcut": "r <from><to>",
+            "description": "Replace surround character <from> with <to>",
+            "keywords": [
+                "match"
+            ]
+        },
+        {
+            "shortcut": "d <char>",
+            "description": "Delete surround character <char>",
+            "keywords": [
+                "match"
+            ]
+        },
+        {
+            "shortcut": "a <object>",
+            "description": "Select around textobject",
+            "keywords": [
+                "match"
+            ]
+        },
+        {
+            "shortcut": "i <object>",
+            "description": "Select inside textobject",
+            "keywords": [
+                "match"
+            ]
+        },
+        {
+            "shortcut": "f",
+            "description": "Open file picker",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "b",
+            "description": "Open buffer picker",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "k",
+            "description": "Show documentation for item under cursor in a popup (LSP)",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "s",
+            "description": "Open document symbol picker (LSP)",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "S",
+            "description": "Open workspace symbol picker (LSP)",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "r",
+            "description": "Rename symbol (LSP)",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "a",
+            "description": "Apply code action (LSP)",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "'",
+            "description": "Open last fuzzy picker",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "w",
+            "description": "Enter window mode",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "p",
+            "description": "Paste system clipboard after selections",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "P",
+            "description": "Paste system clipboard before selections",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "y",
+            "description": "Join and yank selections to clipboard",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "Y",
+            "description": "Yank main selection to clipboard",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "R",
+            "description": "Replace selections by clipboard contents",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "/",
+            "description": "Global search in workspace folder",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "?",
+            "description": "Open command palette",
+            "keywords": [
+                "space"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-u",
+            "description": "Scroll up",
+            "keywords": [
+                "popup"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-d",
+            "description": "Scroll down",
+            "keywords": [
+                "popup"
+            ]
+        },
+        {
+            "shortcut": "r",
+            "description": "Replace with a character",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "R",
+            "description": "Replace with yanked text",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "~",
+            "description": "Switch case of the selected text",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "`",
+            "description": "Set the selected text to lower case",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "Alt-`",
+            "description": "Set the selected text to upper case",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "i",
+            "description": "Insert before selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "a",
+            "description": "Insert after selection (append)",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "I",
+            "description": "Insert at the start of the line",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "A",
+            "description": "Insert at the end of the line",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "o",
+            "description": "Open new line below selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "O",
+            "description": "Open new line above selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": ".",
+            "description": "Repeat last change",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "u",
+            "description": "Undo change",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "U",
+            "description": "Redo change",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "Alt-u",
+            "description": "Move backward in history",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "Alt-U",
+            "description": "Move forward in history",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "y",
+            "description": "Yank selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "p",
+            "description": "Paste after selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "P",
+            "description": "Paste before selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "\" <reg>",
+            "description": "Select a register to yank to or paste from",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": ">",
+            "description": "Indent selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "<",
+            "description": "Unindent selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "=",
+            "description": "Format selection (currently nonfunctional/disabled) (LSP)",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "d",
+            "description": "Delete selection",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "Alt-d",
+            "description": "Delete selection, without yanking",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "c",
+            "description": "Change selection (delete and enter insert mode)",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "Alt-c",
+            "description": "Change selection (delete and enter insert mode, without yanking)",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-a",
+            "description": "Increment object (number) under cursor",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-x",
+            "description": "Decrement object (number) under cursor",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "Q",
+            "description": "Start/stop macro recording to the selected register (experimental)",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "q",
+            "description": "Play back a recorded macro from the selected register (experimental)",
+            "keywords": [
+                "change"
+            ]
+        },
+        {
+            "shortcut": "/",
+            "description": "Search for regex pattern",
+            "keywords": [
+                "search"
+            ]
+        },
+        {
+            "shortcut": "?",
+            "description": "Search for previous pattern",
+            "keywords": [
+                "search"
+            ]
+        },
+        {
+            "shortcut": "n",
+            "description": "Select next search match",
+            "keywords": [
+                "search"
+            ]
+        },
+        {
+            "shortcut": "N",
+            "description": "Select previous search match",
+            "keywords": [
+                "search"
+            ]
+        },
+        {
+            "shortcut": "*",
+            "description": "Use current selection as the search pattern",
+            "keywords": [
+                "search"
+            ]
+        },
+        {
+            "shortcut": "v",
+            "description": "Enter select (extend) mode",
+            "keywords": [
+                "mode"
+            ]
+        },
+        {
+            "shortcut": "g",
+            "description": "Enter goto mode",
+            "keywords": [
+                "mode"
+            ]
+        },
+        {
+            "shortcut": "m",
+            "description": "Enter match mode",
+            "keywords": [
+                "mode"
+            ]
+        },
+        {
+            "shortcut": ":",
+            "description": "Enter command mode",
+            "keywords": [
+                "mode"
+            ]
+        },
+        {
+            "shortcut": "z",
+            "description": "Enter view mode",
+            "keywords": [
+                "mode"
+            ]
+        },
+        {
+            "shortcut": "Z",
+            "description": "Enter sticky view mode",
+            "keywords": [
+                "mode"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-w",
+            "description": "Enter window mode",
+            "keywords": [
+                "mode"
+            ]
+        },
+        {
+            "shortcut": "Space",
+            "description": "Enter space mode",
+            "keywords": [
+                "mode"
+            ]
+        },
+        {
+            "shortcut": "g",
+            "description": "Go to line number <n> else start of file",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "e",
+            "description": "Go to the end of the file",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "f",
+            "description": "Go to files in the selection",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "h",
+            "description": "Go to the start of the line",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "l",
+            "description": "Go to the end of the line",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "s",
+            "description": "Go to first non-whitespace character of the line",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "t",
+            "description": "Go to the top of the screen",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "c",
+            "description": "Go to the middle of the screen",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "b",
+            "description": "Go to the bottom of the screen",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "d",
+            "description": "Go to definition (LSP)",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "y",
+            "description": "Go to type definition (LSP)",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "r",
+            "description": "Go to references (LSP)",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "i",
+            "description": "Go to implementation (LSP)",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "a",
+            "description": "Go to the last accessed/alternate file",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "m",
+            "description": "Go to the last modified/alternate file",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "n",
+            "description": "Go to next buffer",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "p",
+            "description": "Go to previous buffer",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": ".",
+            "description": "Go to last modification in current file",
+            "keywords": [
+                "goto"
+            ]
+        },
+        {
+            "shortcut": "|",
+            "description": "Pipe each selection through shell command, replacing with output",
+            "keywords": [
+                "shell"
+            ]
+        },
+        {
+            "shortcut": "Alt-|",
+            "description": "Pipe each selection into shell command, ignoring output",
+            "keywords": [
+                "shell"
+            ]
+        },
+        {
+            "shortcut": "!",
+            "description": "Run shell command, inserting output before each selection",
+            "keywords": [
+                "shell"
+            ]
+        },
+        {
+            "shortcut": "Alt-!",
+            "description": "Run shell command, appending output after each selection",
+            "keywords": [
+                "shell"
+            ]
+        },
+        {
+            "shortcut": "$",
+            "description": "Pipe each selection into shell command, keep selections where command returned 0",
+            "keywords": [
+                "shell"
+            ]
+        },
+        {
+            "shortcut": "z, c",
+            "description": "Vertically center the line",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "t",
+            "description": "Align the line to the top of the screen",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "b",
+            "description": "Align the line to the bottom of the screen",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "m",
+            "description": "Align the line to the middle of the screen (horizontally)",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "j,down",
+            "description": "Scroll the view downwards",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "k, up",
+            "description": "Scroll the view upwards",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-f, PageDown",
+            "description": "Move page down",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-b, PageUp",
+            "description": "Move page up",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-d",
+            "description": "Move half page down",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-u",
+            "description": "Move half page up",
+            "keywords": [
+                "view"
+            ]
+        },
+        {
+            "shortcut": "w, Ctrl-w",
+            "description": "Switch to next window",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "v, Ctrl-v",
+            "description": "Vertical right split",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "s, Ctrl-s",
+            "description": "Horizontal bottom split",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "f",
+            "description": "Go to files in the selection in horizontal splits",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "F",
+            "description": "Go to files in the selection in vertical splits",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "h, Ctrl-h, Left",
+            "description": "Move to left split",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "j, Ctrl-j, Down",
+            "description": "Move to split below",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "k, Ctrl-k, Up",
+            "description": "Move to split above",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "l, Ctrl-l, Right",
+            "description": "Move to right split",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "q, Ctrl-q",
+            "description": "Close current window",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "o, Ctrl-o",
+            "description": "Only keep the current window, closing all the others",
+            "keywords": [
+                "window"
+            ]
+        },
+        {
+            "shortcut": "Escape, Ctrl-c",
+            "description": "Close prompt",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Alt-b, Alt-Left",
+            "description": "Backward a word",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-b, Left",
+            "description": "Backward a char",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Alt-f, Alt-Right",
+            "description": "Forward a word",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-f, Right",
+            "description": "Forward a char",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-e, End",
+            "description": "Move prompt end",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-a, Home",
+            "description": "Move prompt start",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-w",
+            "description": "Delete previous word",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Alt-d",
+            "description": "Delete next word",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-u",
+            "description": "Delete to start of line",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-k",
+            "description": "Delete to end of line",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "backspace, Ctrl-h",
+            "description": "Delete previous char",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "delete, Ctrl-d",
+            "description": "Delete next char",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-s",
+            "description": "Insert a word under doc cursor, may be changed to Ctrl-r Ctrl-w later",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-p, Up",
+            "description": "Select previous history",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-n, Down",
+            "description": "Select next history",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Tab",
+            "description": "Select next completion item",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "BackTab",
+            "description": "Select previous completion item",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Enter",
+            "description": "Open selected",
+            "keywords": [
+                "prompt"
+            ]
+        },
+        {
+            "shortcut": "Escape",
+            "description": "Switch to normal mode",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-x",
+            "description": "Autocomplete",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-r",
+            "description": "Insert a register content",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-w, Alt-Backspace",
+            "description": "Delete previous word",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Alt-d",
+            "description": "Delete next word",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Alt-b, Alt-Left",
+            "description": "Backward a word",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-b, Left",
+            "description": "Backward a char",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Alt-f, Alt-Right",
+            "description": "Forward a word",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-f, Right",
+            "description": "Forward a char",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-e, End",
+            "description": "Move to line end",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-a, Home",
+            "description": "Move to line start",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-u",
+            "description": "Delete to start of line",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-k",
+            "description": "Delete to end of line",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-j, Enter",
+            "description": "Insert new line",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Backspace, Ctrl-h",
+            "description": "Delete previous char",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Delete, Ctrl-d",
+            "description": "Delete previous char",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-p, Up",
+            "description": "Move to previous line",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-n, Down",
+            "description": "Move to next line",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "PageUp",
+            "description": "Move one page up",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "PageDown",
+            "description": "Move one page down",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Alt->",
+            "description": "Go to end of buffer",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "Alt-<",
+            "description": "Go to start of buffer",
+            "keywords": [
+                "insert"
+            ]
+        },
+        {
+            "shortcut": "s",
+            "description": "Select all regex matches inside selections",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "S",
+            "description": "Split selection into subselections on regex matches",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-s",
+            "description": "Split selection on newlines",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "&",
+            "description": "Align selection in columns",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "_",
+            "description": "Trim whitespace from the selection",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": ";",
+            "description": "Collapse selection onto a single cursor",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-;",
+            "description": "Flip selection cursor and anchor",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-:",
+            "description": "Ensures the selection is in forward direction",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": ",",
+            "description": "Keep only the primary selection",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-,",
+            "description": "Remove the primary selection",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "C",
+            "description": "Copy selection onto the next line (Add cursor below)",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-C",
+            "description": "Copy selection onto the previous line (Add cursor above)",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "(",
+            "description": "Rotate main selection backward",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": ")",
+            "description": "Rotate main selection forward",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-(",
+            "description": "Rotate selection contents backward",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-)",
+            "description": "Rotate selection contents forward",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "%",
+            "description": "Select entire file",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "x",
+            "description": "Select current line, if already selected, extend to next line",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "X",
+            "description": "Extend selection to line bounds (line-wise selection)",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "J",
+            "description": "Join lines inside selection",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "K",
+            "description": "Keep selections matching the regex",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-K",
+            "description": "Remove selections matching the regex",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Ctrl-c",
+            "description": "Comment/uncomment the selections",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-k, Alt-up",
+            "description": "Expand selection to parent syntax node (TS)",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-j, Alt-down",
+            "description": "Shrink syntax tree object selection (TS)",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-h, Alt-left",
+            "description": "Select previous sibling node in syntax tree (TS)",
+            "keywords": [
+                "select"
+            ]
+        },
+        {
+            "shortcut": "Alt-l, Alt-right",
+            "description": "Select next sibling node in syntax tree (TS)",
+            "keywords": [
+                "select"
+            ]
+        }
+    ]
+}

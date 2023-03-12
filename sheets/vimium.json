@@ -1,0 +1,246 @@
+{
+    "items": [
+        {
+            "shortcut": "?",
+            "description": "Show the help dialog for a list of all available keys",
+            "keywords": [
+                "help"
+            ]
+        },
+        {
+            "shortcut": "h",
+            "description": "scroll left",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "j",
+            "description": "scroll down",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "k",
+            "description": "scroll up",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "I",
+            "description": "scroll right",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "gg",
+            "description": "scroll to top of the page",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "G",
+            "description": "scroll to bottom of the page",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "d",
+            "description": "scroll down half a page",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "u",
+            "description": "scroll up half a page",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "f",
+            "description": "open a link in the current tab",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "F",
+            "description": "open a link in a new tab",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "r",
+            "description": "reload",
+            "keywords": ["page"]
+        },
+        {
+            "shortcut": "gs",
+            "description": "view source",
+            "keywords": ["page"]
+        },
+        {
+            "shortcut": "i",
+            "description": "enter insert mode -- all commands will be ignored until you hit Esc to exit",
+            "keywords": ["page"]
+        },
+        {
+            "shortcut": "yy",
+            "description": "copy the current url to the clipboard",
+            "keywords": ["url"]
+        },
+        {
+            "shortcut": "yf",
+            "description": "copy a link url to the clipboard",
+            "keywords": ["url"]
+        },
+        {
+            "shortcut": "gf",
+            "description": "cycle forward to the next frame",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "gF",
+            "description": "focus the main/top frame",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "o",
+            "description": "Open URL, bookmark, or history entry",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "O",
+            "description": "Open URL, bookmark, history entry in a new tab",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "b",
+            "description": "Open bookmark",
+            "keywords": ["navigate", "bookmarks"]
+        },
+        {
+            "shortcut": "B",
+            "description": "Open bookmark in a new tab",
+            "keywords": ["navigate", "bookmarks"]
+        },
+        {
+            "shortcut": "/",
+            "description": "enter find mode -- type your search query and hit enter to search, or Esc to cancel",
+            "keywords": ["search"]
+        },
+        {
+            "shortcut": "n",
+            "description": "cycle forward to the next find match",
+            "keywords": ["search"]
+        },
+        {
+            "shortcut": "N",
+            "description": "cycle backward to the previous find match",
+            "keywords": ["search"]
+        },
+        {
+            "shortcut": "https://github.com/philc/vimium/wiki/Find-Mode",
+            "description": "For advanced usage, see regular expressions on the wik",
+            "keywords": ["search"]
+        },
+        {
+            "shortcut": "ma, mA",
+            "description": "set local mark 'a' (global mark 'A')",
+            "keywords": ["marks"]
+        },
+        {
+            "shortcut": "a, A",
+            "description": "jump to local mark 'a' (global mark 'A')",
+            "keywords": ["marks"]
+        },
+        {
+            "shortcut": "``",
+            "description": "jump back to the position before the previous jump -that is, before the previous gg, G, n, N, / or `a",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "J, gT",
+            "description": "go one tab left",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "K, gt",
+            "description": "go one tab right",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "g0",
+            "description": "go to the first tab",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "g$",
+            "description": "go to the last tab",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "t",
+            "description": "create tab",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "yt",
+            "description": "duplicate current tab",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "x",
+            "description": "close current tab",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "X",
+            "description": "restore closed tab (i.e. unwind the 'x' command)",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "T",
+            "description": "search through your open tabs",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "<a-p>",
+            "description": "pin/unpin current tab",
+            "keywords": ["tab"]
+        },
+        {
+            "shortcut": "]], [[",
+            "description": "Follow the link labeled 'next' or '>' ('previous' or '<') -helpful for browsing paginated sites",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "<a-f>",
+            "description": "open multiple links in a new tab",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "gi",
+            "description": "focus the first (or n-th) text input box on the page",
+            "keywords": ["navigate", "tab"]
+        },
+        {
+            "shortcut": "gu",
+            "description": "go up one level in the URL hierarchy",
+            "keywords": ["navigate", "hierarchy"]
+        },
+        {
+            "shortcut": "gU",
+            "description": "go up to root of the URL hierarchy",
+            "keywords": ["navigate", "hierarchy"]
+        },
+        {
+            "shortcut": "zH",
+            "description": "scroll all the way left",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "zL",
+            "description": "scroll all the way right",
+            "keywords": ["navigate"]
+        },
+        {
+            "shortcut": "v",
+            "description": "enter visual mode; use p/P to paste-and-go, use y to yank",
+            "keywords": ["visual", "copy", "paste"]
+        },
+        {
+            "shortcut": "V",
+            "description": "enter visual line mode",
+            "keywords": ["visual", "copy", "paste"]
+        }
+    ]
+}
